@@ -6,6 +6,6 @@ public class helloworld {
 		System.out.println("Hello"); //1
 		
 		String str = "Hello w";
-		System.out.println(str);
+		System.out.println(str.length());
 	}
 }
