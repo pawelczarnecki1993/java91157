@@ -1,8 +1,13 @@
-public class helloworld {
+public class Main {
 	
 	
 	public static void main(String[] args) {
 	
+		String Nowa ="hello WoRlD";
+		System.out.println("Hello World");
+		System.out.println(Nowa + " Iloœæ znaków " + Nowa.length());
+		
+		
 		double pole;
 		Triangle trojkat = new Triangle(1,2,3,4,5,6);
 		
