@@ -1,9 +1,13 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class Main {
 	
 	
 	public static void main(String[] args) {
 	
-		String Nowa ="hello WoRlD";
+		/*String Nowa ="hello WoRlD";
 		System.out.println("Hello World");
 		System.out.println(Nowa + " Iloœæ znaków " + Nowa.length());
 		
@@ -24,7 +28,15 @@ public class Main {
 		if(trojkat.czyRozwartokatny(20, 40, 9)) {
 			System.out.println("Tak");			
 		}
-		else {System.out.println("Nie");}
+		else {System.out.println("Nie");}*/
+		
+		
+		File file = new File("pytania.txt");
+		Quiz pytania = new Quiz();
+		//Scanner  = new Scanner(file);
+		
+		
+		
 		
 	}
 }
